@@ -90,3 +90,6 @@ out/
 
 # Python
 /src/python/__pycache__/
+
+# Data
+/src/data/user.json
