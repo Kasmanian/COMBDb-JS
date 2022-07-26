@@ -5,10 +5,27 @@
     <meta http-equiv="Content-Security-Policy" content="script-src 'self';">
     <title>COMBDb</title>
     <link rel="stylesheet" href="../ui/index.css" />
-    <script defer src="../render.js"></script>
+    <script defer src="../app.js"></script>
   </head>
   <body>
-    <h1>💖 Hello World!</h1>
-    <p>Welcome to your Electron application.</p>
-  </body>
+    <div id="sign-in-container">
+      <div id="sign-in-page">
+        <div id="logo">
+        </div>
+        <div id="name">
+          COMBDb
+        </div>
+        <div class="tbox">
+          <input type="text" id="user" placeholder="Username">
+        </div>
+        <div class="tbox">
+          <input type="password" id="pswd" placeholder="Password">
+        </div>
+        <div class="sign-or-newf">
+          <div><button type="button" id="sign-in" class="main-btn">Sign in</button></div>
+          <div><button type="button" id="newfile" class="main-btn">File...</button></div>
+        </div>
+      </div>
+    </body>
+    </div>
 </html>
